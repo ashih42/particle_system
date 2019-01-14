@@ -403,8 +403,8 @@ class ParticleSystem:
 				self.context = cl.Context(properties=[(cl.context_properties.PLATFORM, platform)] + get_gl_sharing_context_properties(),
 					devices = [platform.get_devices()[0]])
 
-		print(Style.BRIGHT + 'DEVICE: ' + Style.RESET_ALL, self.context.devices[0])
-		print(Style.BRIGHT + 'VERSION:' + Style.RESET_ALL, self.context.devices[0].get_info(cl.device_info.VERSION))
+		print(Style.BRIGHT + 'DEVICE: \t' + Style.RESET_ALL, self.context.devices[0])
+		print(Style.BRIGHT + 'VERSION: \t' + Style.RESET_ALL, self.context.devices[0].get_info(cl.device_info.VERSION))
 
 		# Make OpenCL buffers, one for each OpenGL VBO
 		self.position_buffer = cl.GLBuffer(self.context, cl.mem_flags.READ_WRITE, int(self.position_vbo))
