@@ -302,6 +302,10 @@ class ParticleSystem:
 			self.camera.position -= CAMERA_SPEED * self.camera.local_right
 		if glfw.get_key(self.window, glfw.KEY_D) == glfw.PRESS:
 			self.camera.position += CAMERA_SPEED * self.camera.local_right
+		if glfw.get_key(self.window, glfw.KEY_Q) == glfw.PRESS:
+			self.camera.position -= CAMERA_SPEED * self.camera.local_up
+		if glfw.get_key(self.window, glfw.KEY_E) == glfw.PRESS:
+			self.camera.position += CAMERA_SPEED * self.camera.local_up
 
 		# Rendering options
 		if glfw.get_key(self.window, glfw.KEY_PAGE_UP) == glfw.PRESS:

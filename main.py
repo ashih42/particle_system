@@ -8,7 +8,7 @@ def terminate_with_usage():
 	print(Style.BRIGHT + 'usage: ' + Style.RESET_ALL + 'python3 ' + Fore.BLUE + 'main.py ' + Fore.RESET +
 		'n_particles \t\t (n_particles > 0)')
 	print(Style.BRIGHT + '\n[CONTROLS]' + Style.RESET_ALL)
-	print(Fore.BLUE + 'WASD' + Fore.RESET + '\t\t\t\t Move camera')
+	print(Fore.BLUE + 'W A S D Q E' + Fore.RESET + '\t\t\t Move camera')
 	print(Fore.BLUE + 'LEFT SHIFT + MOUSE MOVE' + Fore.RESET + '\t\t Rotate camera')
 	print()
 	print(Fore.BLUE + 'ARROWS/HOME/END' + Fore.RESET + '\t\t\t Move particle generator')
