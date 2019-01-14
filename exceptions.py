@@ -1,0 +1,2 @@
+class ParticleSystemException(Exception):
+	pass

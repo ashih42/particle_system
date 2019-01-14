@@ -1,0 +1,39 @@
+Bonus:
+
+- Can move/rotate camera!
+
+- Can toggle lifetime on/off!
+
+- Can toggle perspective / orthographic projection modes!
+
+- Can toggle gravity on/off!
+
+- Can adjust particle size!
+
+- Can toggle particle shrinking on/off!
+
+- Many particle modes:
+  - Stationary
+  - Falling Down
+  - Gravity Fountain
+  - Radial Explosion
+  - Noise Nova
+  - Chaos Attractor
+  
+- Many color profiles:
+	- Confetti
+	- Monochrome
+	- Red and White
+	- Cyan Magenta Yellow
+	- Rainbow Dash
+
+- Doge particles zomg!
+
+- Amazing UML class diagram!
+
+- So organized OpenGL and OpenCL objects hierarchy!
+
+- Very noice OpenCL call graph!
+
+
+
