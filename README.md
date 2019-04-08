@@ -37,7 +37,7 @@ python3 configure.py
 Initialize with `n` particles.
 
 ```
-source setup/env.sh;
+source setup/env.sh
 python3 main.py n
 ```
 
