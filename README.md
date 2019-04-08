@@ -34,7 +34,7 @@ python3 configure.py
 
 ## Running
 
-Initialize with `n` particles.
+Initialize with `n` particles
 
 ```
 source setup/env.sh
