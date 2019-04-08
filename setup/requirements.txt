@@ -1,0 +1,6 @@
+colorama
+glfw
+numpy
+pillow
+pyopencl
+pyopengl
