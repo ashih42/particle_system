@@ -1,6 +1,12 @@
 # particle_system
 A [particle system](https://en.wikipedia.org/wiki/Particle_system) in Python using OpenGL and OpenCL. (42 Silicon Valley)
 
+<p float="left">
+  <img src="https://github.com/ashih42/particle_system/blob/master/Screenshots/radial.gif" width="280" />
+  <img src="https://github.com/ashih42/particle_system/blob/master/Screenshots/doge.gif" width="280" />
+  <img src="https://github.com/ashih42/particle_system/blob/master/Screenshots/chaos.gif" width="280" />
+</p>
+
 ## Prerequisites
 
 You are on macOS with `python3` and `brew` installed.
