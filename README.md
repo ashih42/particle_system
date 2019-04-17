@@ -1,5 +1,5 @@
 # particle_system
-A [particle system](https://en.wikipedia.org/wiki/Particle_system) in Python using OpenGL and OpenCL. (42 Silicon Valley)
+A [particle system](https://en.wikipedia.org/wiki/Particle_system) engine in Python using OpenGL and OpenCL. (42 Silicon Valley)
 
 <p float="left">
   <img src="https://github.com/ashih42/particle_system/blob/master/Screenshots/radial.gif" width="280" />
